@@ -24,8 +24,7 @@ public sealed class OnClickTimerTriggerSystem : EntitySystem
             component.Delay,
             component.BeepInterval,
             component.InitialBeepDelay,
-            component.BeepSound,
-            component.BeepParams);
+            component.BeepSound);
 
         args.Handled = true;
     }
